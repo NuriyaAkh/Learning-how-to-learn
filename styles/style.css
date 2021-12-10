@@ -107,7 +107,7 @@
   display: flex;
 
   line-height: 1.2;
-  font-size: 18px ;
+  font-size: 18px;
   font-weight: normal;
   color:#2F80ED;
   margin: 0;
@@ -327,6 +327,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 flex-direction: column;
+margin: 0;
 
 }
 .footer__link{
@@ -353,9 +354,5 @@ font-weight: normal;
   width: 16px;
   height: 16px;
   margin-right: 10px;
-
-}
-.footer__table{
-  margin: 0;
 
 }
