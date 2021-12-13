@@ -38,6 +38,7 @@
 
 .logo {
   position: absolute;
+  background-repeat: no-repeat;
   top: 30px;
   left: 64px;
   z-index: 1;
@@ -77,11 +78,13 @@
   text-decoration: none;
   color: #2f80ed;
 }
+.description{
+  width: 80%;
+  margin: 100px auto 100px;
+}
 .two-columns {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  margin: 100px auto 100px;
   justify-content: center;
 }
 .two-columns__main-text {
@@ -114,6 +117,9 @@
   margin: 0;
   padding-bottom: 30px;
 }
+.two-columns__paragraph:last-of-type{
+  padding-bottom: 0;
+}
 .section-title {
   width: 60%;
   font-size: 60px;
@@ -124,6 +130,7 @@
   justify-content: center;
   line-height: 69px;
   text-align: center;
+
 }
 .section-subtitle {
   width: 60%;
@@ -229,6 +236,7 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
+  overflow:hidden;
 }
 
 .kaufman-image {
@@ -240,14 +248,16 @@
   top: 0;
   right: -124px;
   overflow: hidden;
-  z-index: 0;
+  z-index: -1;
   margin: 0;
 }
 .section-title_theme_dark {
   color: #f2f2f2;
+
 }
 .section-subtitle_theme_dark {
   color: #f2f2f2;
+
 }
 .footer {
   background-color: #1f1f1f;
