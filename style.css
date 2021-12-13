@@ -8,6 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
+  object-fit: contain;
 }
 
 .header {
