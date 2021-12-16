@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
-
 }
 
 .header {
@@ -21,8 +20,6 @@
   background-color: #f2f2f2;
   position: relative;
   }
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   position: absolute;
   display: flex;
@@ -137,7 +134,6 @@
   font-size: 24px;
   font-weight: normal;
   align-items: center;
-
 }
 .digits{
   margin: 0;
@@ -159,8 +155,6 @@
   display: flex;
   flex-direction: column;
 }
-
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -168,7 +162,6 @@
   margin: 20px 0 0;
   z-index: 1;
 }
-
 .table__heading {
   text-align: left;
   margin: 0;
@@ -229,7 +222,6 @@
   padding-top: 90px;
   padding-bottom: 90px;
   overflow:hidden;
-
 }
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
