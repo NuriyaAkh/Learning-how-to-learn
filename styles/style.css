@@ -175,11 +175,11 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  margin-bottom: 20px;
 }
-.table__text_sourse-info{
+.table__text:last-child{
   margin:0;
-  padding-top: 20px;
-}
+  }
 .feynman {
   background-image: url(../images/feynman.png);
   background-position: left bottom;
