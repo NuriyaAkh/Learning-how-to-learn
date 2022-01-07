@@ -31,6 +31,8 @@
   justify-content: left;
   align-items: flex-end;
   z-index: 0;
+  transform:rotate(15deg) ;
+  animation: rotation linear infinite 20s;
 }
 .logo {
   z-index: 1;
@@ -240,6 +242,7 @@
   overflow: hidden;
   z-index: -1;
   margin: 0;
+  animation: rotation linear infinite 20s;
 }
 .section-title_theme_dark {
   color: #f2f2f2;
@@ -329,4 +332,12 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }
