@@ -31,7 +31,6 @@
   justify-content: left;
   align-items: flex-end;
   z-index: 0;
-<<<<<<< HEAD
   transform:rotate(15deg) ;
   animation: rotation linear infinite 20s;
 =======
@@ -245,10 +244,7 @@
   overflow: hidden;
   z-index: -1;
   margin: 0;
-<<<<<<< HEAD
   animation: rotation linear infinite 20s;
-=======
->>>>>>> daeec0c9664254c636fa1e85c7c620422c429612
 }
 .section-title_theme_dark {
   color: #f2f2f2;
