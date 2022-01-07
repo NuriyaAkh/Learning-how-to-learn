@@ -19,6 +19,7 @@
   justify-content: center;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
   }
 .header__square-pic {
   position: absolute;
@@ -33,8 +34,7 @@
   z-index: 0;
   transform:rotate(15deg) ;
   animation: rotation linear infinite 20s;
-=======
->>>>>>> daeec0c9664254c636fa1e85c7c620422c429612
+
 }
 .logo {
   z-index: 1;
@@ -77,6 +77,10 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: linear 2s;
+}
+.header__link:hover{
+  opacity: 0.5;
 }
 .description{
   width: 80%;
@@ -203,6 +207,10 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  transition: linear 2s;
+}
+.feynman__link:hover{
+  opacity: 0.5;
 }
 
 .feynman__title {
@@ -315,6 +323,10 @@
 .footer__link {
   text-decoration: none;
   color: #f2f2f2;
+  transition: linear;
+}
+.footer__link:hover{
+  opacity: 0.5;
 }
 .footer__list {
   list-style: none;
@@ -334,7 +346,7 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-<<<<<<< HEAD
+
 }
 @keyframes rotation {
   0% {
@@ -343,4 +355,45 @@
   100% {
       transform: rotate(360deg);
   }
+}
+.cards {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
 
+}
+.cards_item{
+  display:flex;
+  justify-content: center;
+}
+.cards__image{
+  border-radius: 50%;
+}
+.video__iframes{
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+}
+.video__iframe{
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.oakley{
+  background-color: #f2f2f2;
+}
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+}
+.khan{
+  overflow: hidden;
+}
+.resourses__logo-zone{
+  list-style:none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.resourses__link{
+  flex-direction: row;
+}
