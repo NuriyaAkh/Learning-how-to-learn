@@ -83,13 +83,19 @@
   opacity: 0.5;
 }
 .description{
-  width: 80%;
-  margin: 100px auto 100px;
+display: flex;
+justify-content: center;
+  margin:0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 .two-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 80%;
+
 }
 .two-columns__main-text {
   display: flex;
@@ -356,31 +362,75 @@
       transform: rotate(360deg);
   }
 }
+.techniques{
+  margin: 0 auto;
+}
 .cards {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: flex-start;
+  max-width: 920px;
+  border:solid red 2px;
 
 }
-.cards_item{
-  display:flex;
-  justify-content: center;
+.cards__item{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+ width: 240px;
+margin: 0;
+
+border:solid blue 2px;
+align-items: center;
+
+}
+.cards__title{
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 43px;
+  margin: 0;
+
+
+}
+.element__description{
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 16px;
+
 }
 .cards__image{
+  margin:60 40px 0;
   border-radius: 50%;
 }
 .video__iframes{
   display: flex;
-  flex: wrap;
-  flex-direction: row;
-}
-.video__iframe{
-  margin: 0 auto;
+  flex-wrap: wrap;
+  margin:0;
   padding-top: 50px;
+  justify-content: center;
+}
+.video__iframe:first-of-type {
+  padding-right: 20px;
+}
+.video{
+margin:50px auto -100px;
 }
 .oakley{
+  display: flex;
+  margin:0;
   background-color: #f2f2f2;
+  padding-top: 160px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
 .khan__book-pic{
   width: 620px;
   height: 608px;
@@ -388,12 +438,23 @@
 .khan{
   overflow: hidden;
 }
+.resourses{
+  padding-top: 100px;
+  padding-bottom: 217px;
+  margin: 0;
+}
 .resourses__logo-zone{
-  list-style:none;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  flex-direction: row;
+padding-top: 80px;
+  margin:0 auto;
+  max-width: 1100px;
 }
 .resourses__link{
-  flex-direction: row;
+  text-decoration: none;
+  opacity: 1;
+  transition: linear 2s;
+}
+.resourses__link:hover{
+  opacity: 0.2;
 }
