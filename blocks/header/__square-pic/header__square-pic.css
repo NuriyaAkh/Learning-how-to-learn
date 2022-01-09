@@ -1,0 +1,14 @@
+.header__square-pic {
+  position: absolute;
+  display: flex;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  justify-content: left;
+  align-items: flex-end;
+  z-index: 0;
+  transform:rotate(15deg) ;
+  animation: rotation linear infinite 20s;
+}

@@ -1,0 +1,8 @@
+.footer__table {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 0;
+  }

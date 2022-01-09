@@ -1,0 +1,17 @@
+.cards__item{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 240px;
+margin: 0;
+margin-right: 100px;
+padding-top: 60px;
+border:solid blue 2px;
+align-items: center;
+}
+.cards__item:last-of-type{
+  margin:0;
+}
+.cards__item:nth-of-type(3){
+  margin:0;
+}
