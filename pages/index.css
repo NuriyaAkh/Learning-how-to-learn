@@ -21,7 +21,7 @@
 /*Digits*/
 @import url(../blocks/digits/digits.css);
 /*Feynman*/
-@import url(../blocks/feynman/fyenman.css);
+@import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -83,7 +83,7 @@
 @import url(../blocks/two-columns/__brief/two-colunms__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__span-accent/two-colunms__span-accent.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /*Video*/
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
