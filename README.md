@@ -3,5 +3,4 @@
 #### This is a landing page, dedicated to information about efficient learning. 
 * It was built using HTML and CSS.
 
-#### Demo:
-
+#### Demo: [click here](https://nuriyaakh.github.io/Learning-how-to-learn/)
